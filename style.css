@@ -1,0 +1,123 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/roboto-v30-latin-500.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v30-latin-700.woff2') format('woff2');
+}
+
+
+
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/play-v19-latin-regular.woff2') format('woff2');
+}
+
+:root{
+    --color--primary--black: #011C44
+}
+:root{
+    --color--primary--blue: #2B7FFF
+}
+:root{
+    --color--white: #FFFFFF
+}
+:root{
+    --color--background: #011C44
+}
+:root{
+    --color--data: #747272
+}
+ul li {
+    list-style: none;
+    
+}
+a,
+a:visited {
+    text-decoration: none;
+}
+
+.link{
+    color: var(--color--primary--black);
+    font-family: "roboto" , sans-serif;
+    font-weight: 400;
+
+}
+.link:hover{
+    color: var(--color--primary--blue);
+    font-weight: 700;
+}
+.h1{
+    color: var(--color--primary--blue);
+    font-family: "play" , sans-serif;
+    font-weight: 700;
+    font-size: 140px;
+}
+.button{
+    border: 1px solid var(--color--primary--blue);
+    border-radius: 32px;
+    color: #f0f0f0;
+    background-color: var(--color--primary--blue);
+    font-family: "roboto";
+    font-weight: 600;
+    font-size: 18px;
+}
+.button:hover{
+    color: var(--color--primary--black);
+    font-weight: bold;
+    background-color: var(--color--white);
+}
+.free-text{
+    font-family: "roboto" , sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+.h2{
+    font-size: 64px;
+    font-family: "play", sans-serif;
+    font-weight: 700;
+    line-height: 74px;
+}
+.h2 span{
+    color: var(--color--primary--blue);
+}
+.img{
+    margin: 70px 0;
+}
+.link_1{
+    color: var(--color--white);
+    font-family: 'roboto' , sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.link_1:hover{
+    color: var(--color--primary--blue);
+    font-weight: 700;
+}
+.footer{
+    background-color: var(--color--background);
+}
+.data{
+    color: var(--color--data);
+}
